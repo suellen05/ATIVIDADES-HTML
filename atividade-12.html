@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <form name="cadastro" method="POST" action="cadastrar.php">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+<label for="nome"> Nome: </label><input type="text" name="nome" id="name">
+<label for="nome"> Idade: </label><input type="number" name="idade" id="idade">
+
+        </fieldset>
+        <fieldset>
+            <legend>dados Profissionais</legend>
+            <label for="escolaridade"> Escolaridade: </label>
+            <select name="escolaridade" id="escolaridade">
+                <option value="em"> Ensino Médio </option>
+                <option value="nt"> Nível Técnico </option>
+                <option value="ns"> Nível Superior </option>
+
+            </select>
+            <br>
+        </label>
+        </fieldset>
+        <fieldset>
+            <legend> Minicurrículo</legend>
+            <textarea name="minicurrículo" id="minucuriculo"></textarea>
+        </fieldset>
+        <button type="reset">Limpar</button>
+        <button type="submit">cadastrar</button>
+    </form>
+    
+</head>
+<body>
+    
+</body>
+</html>

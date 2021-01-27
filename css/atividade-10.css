@@ -1,0 +1,15 @@
+.tabelas-alimentos{
+    border: 1px solid red;
+}
+
+.tabelas-alimentos th{
+   border: 1px solid blue;
+   background: gray;
+   color: white;
+   font-size: 16px;
+   padding: 10px;
+}
+
+.tabelas-alimentos td{
+    border: 1px solid green;
+}

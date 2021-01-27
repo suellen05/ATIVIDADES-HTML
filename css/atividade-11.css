@@ -1,0 +1,37 @@
+.tabela-campeonato{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    margin: 0 auto;
+
+}
+.tabela-campeonato thead tr{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.tabela-campeonato th,
+.tabela-campeonato td{
+    padding: 12px 15px;
+}
+.tabela-campeonato tbody tr{
+    border-bottom:1px solid #dddddd;
+
+
+}
+/* aqui fazemod a tabela ficar "zebrada", todo tr par fica com cor diferente*/
+.tabela-campeonato tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+
+}
+
+
+/* aqui coloco a borda de baixo no ultimo tr*/
+.tabela-campeonato tbody tr:last-of-type {
+ border-bottom: 2px solid #009879; 
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+</head>
+<body>
+    <h1> Imagem Flexivel</h1>
+    <p>
+        Voce esta vendo uma imagem completa? Experimente aumentar ou diminuir o tamanho de sua janela e veja
+        a imagem se adaptar.
+        <p>
+            <picture>
+            <source media="(min-width:900px)" srcset="img/paisagem-g.png">
+            <source media="(min-width:650px)" srcset="img/paisagem-m.png">
+             <source media="(min-width:465px)" srcset="img/paisagem-p.png">
+            <img src="img/paisagem-g.png">
+            </picture>
+</body>
+</html>
